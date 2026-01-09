@@ -1,0 +1,92 @@
+
+{
+  "projects": [
+    {
+      "id": "1",
+      "title": { "en": "Artics Digital Strategy", "id": "Artics Digital Strategy" },
+      "description": { 
+        "en": "A company profile website built to support digital marketing campaigns. Strategic planning meets modern execution.", 
+        "id": "Website profil perusahaan yang dibangun untuk mendukung kampanye pemasaran digital. Perencanaan strategis berpadu dengan eksekusi modern." 
+      },
+      "imageUrl": "https://images.unsplash.com/photo-1557804506-669a67965ba0?q=80&w=1974&auto=format&fit=crop",
+      "link": "#",
+      "tech": ["React", "Tailwind", "Typescript", "Node.js"]
+    },
+    {
+      "id": "2",
+      "title": { "en": "Super League Indonesia", "id": "Super League Indonesia" },
+      "description": { 
+        "en": "A modern football information website with clean UI and structured content. The digital home for national football fans.", 
+        "id": "Website informasi sepak bola modern dengan UI bersih dan konten terstruktur. Rumah digital bagi penggemar sepak bola nasional." 
+      },
+      "imageUrl": "https://images.unsplash.com/photo-1518091044124-0101b02ef249?q=80&w=1931&auto=format&fit=crop",
+      "link": "#",
+      "tech": ["React", "Express.js", "MySQL", "Tailwind"]
+    }
+  ],
+  "experiences": [
+    {
+      "id": "1",
+      "title": { "en": "Graphic Design", "id": "Desain Grafis" },
+      "company": "PT Altindo Mitra Perkasa",
+      "location": "Jawa Barat",
+      "period": "Jan 2025 - Present",
+      "description": {
+        "en": "Specializing in visual branding and high-impact digital design assets for modern agencies.",
+        "id": "Spesialisasi dalam branding visual dan aset desain digital berdampak tinggi untuk agensi modern."
+      },
+      "iconType": "design"
+    },
+    {
+      "id": "2",
+      "title": { "en": "Head of Media & Information", "id": "Ketua Media & Informasi" },
+      "company": "Student Government Association",
+      "location": "DKI Jakarta",
+      "period": "Dec 2025 - Present",
+      "description": {
+        "en": "Leading digital communications and information strategy for campus-wide initiatives.",
+        "id": "Memimpin komunikasi digital dan strategi informasi untuk inisiatif di seluruh kampus."
+      },
+      "iconType": "media"
+    },
+    {
+      "id": "3",
+      "title": { "en": "Network & Application Tech", "id": "Teknisi Jaringan & Aplikasi" },
+      "company": "Dinas Komunikasi dan Informatika",
+      "location": "Jawa Barat",
+      "period": "May 2024 - Jun 2024",
+      "description": {
+        "en": "Focused on network maintenance and technical support for government-level application infrastructure.",
+        "id": "Fokus pada pemeliharaan jaringan dan dukungan teknis untuk infrastruktur aplikasi tingkat pemerintah."
+      },
+      "iconType": "tech"
+    }
+  ],
+  "education": [
+    {
+      "id": "1",
+      "school": "Cakrawala University",
+      "degree": { "en": "Bachelor of Computer Science", "id": "Sarjana Ilmu Komputer" },
+      "major": { "en": "Software Engineering", "id": "Rekayasa Perangkat Lunak" },
+      "period": "2024 - Present",
+      "description": {
+        "en": "Deepening expertise in software architecture, cloud systems, and modern development paradigms.",
+        "id": "Memperdalam keahlian dalam arsitektur perangkat lunak, sistem cloud, dan paradigma pengembangan modern."
+      },
+      "iconType": "university"
+    }
+  ],
+  "achievements": [
+    {
+      "id": "1",
+      "title": { "en": "Best Innovator Award", "id": "Penghargaan Inovator Terbaik" },
+      "issuer": "Regional Hackathon 2024",
+      "date": "Oct 2024",
+      "description": {
+        "en": "Awarded for developing a blockchain-based voting system for student governments.",
+        "id": "Diberikan untuk pengembangan sistem pemungutan suara berbasis blockchain untuk pemerintahan mahasiswa."
+      },
+      "icon": "trophy"
+    }
+  ]
+}

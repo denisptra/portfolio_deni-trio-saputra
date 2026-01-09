@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Deni Trio Saputra | Software & Design</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+      :root {
+        --notion-bg: #ffffff;
+        --notion-text: #37352f;
+        --notion-border: #eef0f2;
+        --brand-blue: #1F9CF0;
+      }
+      body {
+        font-family: 'Inter', sans-serif;
+        background-color: var(--notion-bg);
+        color: var(--notion-text);
+        overflow-x: hidden;
+        font-size: 13px;
+        -webkit-font-smoothing: antialiased;
+      }
+      .hero-section {
+        position: relative;
+        overflow: hidden;
+      }
+      .hero-grid-pattern {
+        position: absolute;
+        inset: 0;
+        z-index: 0;
+        background-size: 40px 40px;
+        background-image: 
+          linear-gradient(to right, rgba(55, 53, 47, 0.03) 1px, transparent 1px),
+          linear-gradient(to bottom, rgba(55, 53, 47, 0.03) 1px, transparent 1px);
+        mask-image: radial-gradient(circle at 50% 50%, black, transparent 90%);
+      }
+      .bubble {
+        position: absolute;
+        border-radius: 50%;
+        background: radial-gradient(circle at 30% 30%, rgba(31, 156, 240, 0.1), transparent);
+        filter: blur(40px);
+        z-index: 1;
+        animation: float 20s infinite ease-in-out;
+      }
+      @keyframes float {
+        0%, 100% { transform: translateY(0) translateX(0); }
+        50% { transform: translateY(-40px) translateX(20px); }
+      }
+      .notion-card {
+        border: 1px solid var(--notion-border);
+        transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+        background: #ffffff;
+      }
+      .notion-card:hover {
+        background: #fcfcfc;
+        border-color: #d1d5db;
+        transform: translateY(-2px);
+      }
+      .dropdown-shadow {
+        box-shadow: 0 10px 30px rgba(0,0,0,0.06), 0 0 0 1px rgba(0,0,0,0.02);
+      }
+      ::-webkit-scrollbar { width: 6px; }
+      ::-webkit-scrollbar-track { background: transparent; }
+      ::-webkit-scrollbar-thumb { background: #dfdfde; border-radius: 10px; }
+      
+      h1 { font-weight: 800; tracking: -0.025em; }
+    </style>
+    <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.12.0",
+    "lucide-react": "https://esm.sh/lucide-react@^0.562.0",
+    "@google/genai": "https://esm.sh/@google/genai@^1.35.0"
+  }
+}
+</script>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
